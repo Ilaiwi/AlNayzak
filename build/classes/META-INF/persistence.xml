@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="AlNayzakPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>alnayzak.YoungResearcher</class>
+    <class>alnayzak.Participant</class>
+    <class>alnayzak.PhaseTwo</class>
+    <class>alnayzak.Certifications</class>
+    <class>alnayzak.Dprojects</class>
+    <class>alnayzak.Tool</class>
+    <class>alnayzak.Student</class>
+    <class>alnayzak.PhaseOne</class>
+    <class>alnayzak.Department</class>
+    <class>alnayzak.Fulltime</class>
+    <class>alnayzak.Pgroup</class>
+    <class>alnayzak.Projects</class>
+    <class>alnayzak.Locations</class>
+    <class>alnayzak.ResearchAndDevelopment</class>
+    <class>alnayzak.Parttime</class>
+    <class>alnayzak.Employee</class>
+    <class>alnayzak.Projectdepartment</class>
+    <class>alnayzak.SchoolHasA</class>
+    <class>alnayzak.Volunteer</class>
+    <class>alnayzak.Step</class>
+    <class>alnayzak.PhaseThree</class>
+    <class>alnayzak.Phases</class>
+    <class>alnayzak.MadeInPalestine</class>
+    <class>alnayzak.Office</class>
+    <class>alnayzak.Sessions</class>
+    <class>alnayzak.Compatition</class>
+    <class>alnayzak.CompatitionLocation</class>
+    <class>alnayzak.Bader</class>
+    <class>alnayzak.People</class>
+    <class>alnayzak.Training</class>
+    <class>alnayzak.Degrees</class>
+    <class>alnayzak.Winners</class>
+    <class>alnayzak.Users</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
+      <property name="javax.persistence.jdbc.user" value="alnayzak"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="123456"/>
+    </properties>
+  </persistence-unit>
+</persistence>
